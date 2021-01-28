@@ -1,0 +1,49 @@
+li,
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.2rem;
+}
+
+.navbar {
+  background-color: #f1f1f1;
+  min-height: 4em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  position: absolute;
+}
+
+.navbar ul li {
+  display: inline-block;
+  margin: 0px 7px;
+}
+
+.navbar ul,
+.logo {
+  margin: 0 225px;
+}
+
+@media only screen and (max-width: 1150px) {
+  .navbar ul,
+  .logo {
+    margin: 0 120px;
+  }
+}
+
+@media only screen and (max-width: 735px) {
+  .navbar ul,
+  .logo {
+    margin: 0 80px;
+  }
+}
+
+@media only screen and (max-width: 570px) {
+  .navbar ul,
+  .logo {
+    margin: 0 20px;
+  }
+} ;

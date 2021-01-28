@@ -1,0 +1,50 @@
+.placeholder {
+  background-color: pink;
+}
+
+.body-image {
+  position: absolute;
+  height: 50vh;
+  width: 100%;
+  object-fit: cover;
+}
+
+.img-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+}
+
+.brand {
+  z-index: 2;
+  font-size: 6rem;
+  color: white;
+  -webkit-text-stroke: 2.3px black;
+}
+
+.hi {
+  font-size: 6rem;
+  color: white;
+}
+
+@media only screen and (max-width: 900px) {
+  .hi,
+  .brand {
+    font-size: 5rem;
+  }
+}
+
+@media only screen and (max-width: 742px) {
+  .hi,
+  .brand {
+    font-size: 4rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .hi,
+  .brand {
+    font-size: 3.3rem;
+  }
+} ;

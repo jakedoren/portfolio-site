@@ -1,0 +1,41 @@
+.project-container {
+  display: flex;
+  height: 30em;
+}
+
+.project-left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+.project-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+
+.title {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 8em;
+}
+.title h1 {
+  margin: 40px 0;
+  font-size: 3rem;
+}
+
+.title-contain {
+  border-top: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #c1c1c1;
+}
+
+.project-left,
+.project-right {
+  background-color: #c1c1c1;
+}

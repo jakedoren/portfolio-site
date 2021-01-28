@@ -1,0 +1,25 @@
+.placeholder {
+  color: pink;
+}
+
+.footer {
+  height: 8em;
+  background-color: black;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.footer p {
+  color: #ffffff;
+}
+
+.footer-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon {
+  margin-top: -50px;
+}
