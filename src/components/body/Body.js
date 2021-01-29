@@ -6,7 +6,7 @@ export default function Body() {
 
     useEffect(() => {
         const myElement = document.querySelector('#myElement')
-        init(myElement, { showCursor: false, strings: ['Jacob Doren', 'a developer', 'a designer']})
+        init(myElement, { showCursor: true, strings: ['Jacob Doren', 'a developer', 'a designer']})
     }, []) 
 
     return (
