@@ -12,10 +12,10 @@ export default function Projects() {
             
             <div className="project-container">
                 <div className="project-left box">
-                    <a href="https://47pqo.csb.app/" target="_blank" rel="noreferrer"><img src={rickapp} className="rickapp" alt="rickandmortyapp"/></a>
+                    <a href="https://5ccou.csb.app/" target="_blank" rel="noreferrer"><img src={rickapp} className="rickapp" alt="rickandmortyapp"/></a>
                 </div>
                 <div className="project-right box ">
-                    <a href="https://47pqo.csb.app/" target="_blank" rel="noreferrer"><img src={todoapp} className="todo-app" alt="TodoApp"/></a>
+                    <a href="https://yujlb.csb.app/" target="_blank" rel="noreferrer"><img src={todoapp} className="todo-app" alt="TodoApp"/></a>
                 </div>
             </div>
         </div>
