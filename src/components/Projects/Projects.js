@@ -1,6 +1,7 @@
 import React from 'react'
 import './Projects.css'
 import rickapp from '../../images/rickapp.jpg'
+import todoapp from '../../images/todoapp.jpg'
 export default function Projects() {
     return (
 
@@ -14,7 +15,7 @@ export default function Projects() {
                     <a href="https://47pqo.csb.app/" target="_blank" rel="noreferrer"><img src={rickapp} className="rickapp" alt="rickandmortyapp"/></a>
                 </div>
                 <div className="project-right box ">
-                    <p>in construction...</p>
+                    <a href="https://47pqo.csb.app/" target="_blank" rel="noreferrer"><img src={todoapp} className="todo-app" alt="TodoApp"/></a>
                 </div>
             </div>
         </div>

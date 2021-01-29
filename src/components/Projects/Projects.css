@@ -40,38 +40,48 @@
   background-color: #c1c1c1;
 }
 
-.rickapp {
+.rickapp,
+.todo-app {
   height: 350px;
   border-radius: 30px;
   border: 2px solid black;
 }
+
 .rickapp:hover {
+  transform: scale(0.98);
+}
+.todo-app:hover {
   transform: scale(0.98);
 }
 
 @media only screen and (max-width: 1150px) {
-  .rickapp {
+  .rickapp,
+  .todo-app {
     height: 300px;
   }
 }
 
 @media only screen and (max-width: 900px) {
-  .rickapp {
+  .rickapp,
+  .todo-app {
     height: 270px;
   }
 }
 @media only screen and (max-width: 900px) {
-  .rickapp {
+  .rickapp,
+  .todo-app {
     height: 250px;
   }
 }
 @media only screen and (max-width: 700px) {
-  .rickapp {
+  .rickapp,
+  .todo-app {
     height: 200px;
   }
 }
 @media only screen and (max-width: 600px) {
-  .rickapp {
+  .rickapp,
+  .todo-app {
     height: 150px;
   }
 } ;
