@@ -5,14 +5,16 @@
 
 .project-left {
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
+  padding-right: 75px;
   flex: 1;
 }
 .project-right {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
+  padding-left: 75px;
   flex: 1;
 }
 
@@ -66,6 +68,13 @@
   .todo-app {
     height: 270px;
   }
+
+  .project-left {
+    padding-right: 50px;
+  }
+  .project-right {
+    padding-left: 50px;
+  }
 }
 @media only screen and (max-width: 900px) {
   .rickapp,
@@ -78,17 +87,37 @@
   .todo-app {
     height: 200px;
   }
+  .project-left {
+    padding-right: 40px;
+  }
+
+  .project-right {
+    padding-left: 40px;
+  }
 }
 @media only screen and (max-width: 600px) {
   .rickapp,
   .todo-app {
     height: 150px;
   }
+  .project-left {
+    padding-right: 30px;
+  }
+  .project-right {
+    padding-left: 30px;
+  }
 }
 
-@media only screen and (max-width: 370px) {
+@media only screen and (max-width: 400px) {
   .rickapp,
   .todo-app {
     height: 120px;
+  }
+
+  .project-left {
+    padding-right: 18px;
+  }
+  .project-right {
+    padding-left: 18px;
   }
 } ;
