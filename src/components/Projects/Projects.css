@@ -84,4 +84,11 @@
   .todo-app {
     height: 150px;
   }
+}
+
+@media only screen and (max-width: 370px) {
+  .rickapp,
+  .todo-app {
+    height: 120px;
+  }
 } ;

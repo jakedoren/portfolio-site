@@ -87,3 +87,15 @@
     background-color: #f1f1f1;
   }
 }
+
+@media only screen and (max-width: 450px) {
+  .headshot {
+    height: 110px;
+  }
+  .content p {
+    font-size: 1rem;
+  }
+  .content h1 {
+    font-size: 3rem;
+  }
+}

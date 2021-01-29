@@ -8,7 +8,7 @@ export default function Contact() {
         <div>
             <div id="contact"className="contact-container">
                 <div className="contact-left containerbox">
-                    <div>
+                    <div className="left-contain">
                         <h1>Let's Work Together!</h1>
                     <p>Have a project you would like to discuss?</p>
                     <h1>Contact me.</h1>
