@@ -39,3 +39,39 @@
 .project-right {
   background-color: #c1c1c1;
 }
+
+.rickapp {
+  height: 350px;
+  border-radius: 30px;
+  border: 2px solid black;
+}
+.rickapp:hover {
+  transform: scale(0.98);
+}
+
+@media only screen and (max-width: 1150px) {
+  .rickapp {
+    height: 300px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .rickapp {
+    height: 270px;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .rickapp {
+    height: 250px;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .rickapp {
+    height: 200px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .rickapp {
+    height: 150px;
+  }
+} ;

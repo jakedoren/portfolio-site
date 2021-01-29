@@ -1,5 +1,6 @@
 import React from 'react'
 import './Projects.css'
+import rickapp from '../../images/rickapp.jpg'
 export default function Projects() {
     return (
 
@@ -10,7 +11,7 @@ export default function Projects() {
             
             <div className="project-container">
                 <div className="project-left box">
-                    <p>in construction...</p>
+                    <a href="https://47pqo.csb.app/" target="_blank" rel="noreferrer"><img src={rickapp} className="rickapp" alt="rickandmortyapp"/></a>
                 </div>
                 <div className="project-right box ">
                     <p>in construction...</p>
