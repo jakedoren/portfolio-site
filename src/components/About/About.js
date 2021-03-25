@@ -3,7 +3,7 @@ import './About.css'
 import headshotimage from '../../images/copped.jpg' 
 export default function About() {
     return (
-        <div className="flex-container">
+        <div className="flex-container" name="about">
             <div className="flex-left box">
                 <div id="about" className="content">
                     <h1>Who am i?...</h1>
