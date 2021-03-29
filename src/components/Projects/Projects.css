@@ -1,6 +1,7 @@
 .project-container {
   display: flex;
   height: 30em;
+  background-color: #c1c1c1;
 }
 
 .project-left {
@@ -85,7 +86,7 @@
 @media only screen and (max-width: 700px) {
   .rickapp,
   .todo-app {
-    height: 200px;
+    height: 240px;
   }
   .project-left {
     padding-right: 40px;
@@ -98,18 +99,34 @@
 @media only screen and (max-width: 600px) {
   .rickapp,
   .todo-app {
-    height: 150px;
+    /* height: 150px; */
   }
   .project-left {
-    padding-right: 30px;
+    /* padding-right: 30px; */
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin-top: -80px;
   }
   .project-right {
-    padding-left: 30px;
+    /* padding-left: 30px; */
+    align-items: center;
+    margin: 80px 0px;
+    justify-content: center;
+    padding: 0;
+  }
+
+  .project-container {
+    flex-direction: column;
+  }
+
+  .project-container {
+    padding: 140px;
   }
 }
 
 @media only screen and (max-width: 400px) {
-  .rickapp,
+  /* .rickapp,
   .todo-app {
     height: 120px;
   }
@@ -119,5 +136,5 @@
   }
   .project-right {
     padding-left: 18px;
-  }
+  } */
 } ;
