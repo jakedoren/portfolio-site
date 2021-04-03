@@ -8,7 +8,8 @@ import './Projectsection.css'
 
 const projectsection = () => {
     return (
-        <div className="project-section">
+        <div className="project-section" name="project-section">
+            <h1 className="proj-title">Projects</h1>
             <div className="project-section-wrap">
             <Projects title="Character API" image={apiapp} link="https://compassionate-tesla-e7e979.netlify.app/"/>
             <Projects title="Employee Sort" image={employeesort} link="https://stoic-austin-50c836.netlify.app/" />

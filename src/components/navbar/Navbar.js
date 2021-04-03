@@ -44,7 +44,7 @@ export default function Navbar() {
                             {modal ? 
                             <ul className="ddl">
                                 <div className="ddl-contain">
-                                 <li><Link className="ddl-link" spy={true} smooth={true} duration={500} to="projects" offset={-64} >Projects</Link></li>
+                                 <li><Link className="ddl-link" spy={true} smooth={true} duration={500} to="project-section" offset={-64} >Projects</Link></li>
                                 <li><Link className="ddl-link" spy={true} smooth={true} duration={500} to="about" offset={-64} >About</Link></li>
                                 <li><Link className="ddl-link" spy={true} smooth={true} duration={500} to="contact" offset={-64} >Contact</Link></li>
                                 </div>

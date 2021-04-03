@@ -6,7 +6,7 @@ import { AiOutlineMail } from 'react-icons/ai'
 export default function Contact() {
     return (
         <div>
-            <div name="contact"className="contact-container">
+            <div name="contact" className="contact-container">
                 <div className="contact-left containerbox">
                     <div className="left-contain">
                         <h1>Let's Work Together!</h1>
