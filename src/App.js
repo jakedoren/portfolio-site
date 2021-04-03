@@ -2,7 +2,8 @@ import './App.css';
 import Navbar from './components/navbar/Navbar'
 import Body from './components/body/Body'
 import About from './components/About/About'
-import Projects from './components/Projects/Projects'
+import Projectsection from './components/projectsection/Projectsection'
+
 import Contact from './components/contact/Contact'
 import Footer from './components/footer/Footer'
 
@@ -14,7 +15,7 @@ function App() {
         <Navbar />
         <Body />
         <About />
-        <Projects />
+        <Projectsection />
         <Contact />
         <Footer />
         
