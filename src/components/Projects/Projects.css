@@ -1,21 +1,29 @@
 .project-container {
   display: flex;
   height: 30em;
+  padding: 80px 0;
   background-color: #c1c1c1;
 }
 
 .project-left {
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: center;
-  padding-right: 75px;
+
   flex: 1;
 }
 .project-right {
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
-  padding-left: 75px;
+
+  flex: 1;
+}
+.project-mid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
   flex: 1;
 }
 
@@ -39,12 +47,19 @@
 }
 
 .project-left,
-.project-right {
+.project-right,
+.project-mid {
   background-color: #c1c1c1;
 }
 
 .rickapp,
 .todo-app {
+  height: 350px;
+  border-radius: 30px;
+  border: 2px solid black;
+}
+
+.api-app {
   height: 350px;
   border-radius: 30px;
   border: 2px solid black;
@@ -57,84 +72,61 @@
   transform: scale(0.98);
 }
 
-@media only screen and (max-width: 1150px) {
+.project-mid:hover {
+  transform: scale(0.98);
+}
+
+@media only screen and (max-width: 1300px) {
   .rickapp,
-  .todo-app {
+  .todo-app,
+  .api-app {
     height: 300px;
   }
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 930px) {
   .rickapp,
-  .todo-app {
+  .todo-app,
+  .api-app {
     height: 270px;
-  }
-
-  .project-left {
-    padding-right: 50px;
-  }
-  .project-right {
-    padding-left: 50px;
   }
 }
 @media only screen and (max-width: 900px) {
   .rickapp,
-  .todo-app {
+  .todo-app,
+  .api-app {
     height: 250px;
   }
 }
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 900px) {
   .rickapp,
-  .todo-app {
-    height: 240px;
-  }
-  .project-left {
-    padding-right: 40px;
+  .todo-app,
+  .api-app {
+    height: 200px;
   }
 
-  .project-right {
-    padding-left: 40px;
+  .project-container {
+    padding: 20px 0;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .project-container {
+    flex-direction: column;
+    padding-bottom: 280px;
   }
 }
 @media only screen and (max-width: 600px) {
-  .rickapp,
-  .todo-app {
-    /* height: 150px; */
-  }
   .project-left {
-    /* padding-right: 30px; */
     justify-content: center;
     align-items: center;
-    padding: 0;
-    margin-top: -80px;
   }
   .project-right {
-    /* padding-left: 30px; */
     align-items: center;
-    margin: 80px 0px;
     justify-content: center;
-    padding: 0;
   }
 
   .project-container {
     flex-direction: column;
   }
-
-  .project-container {
-    padding: 140px;
-  }
 }
-
-@media only screen and (max-width: 400px) {
-  /* .rickapp,
-  .todo-app {
-    height: 120px;
-  }
-
-  .project-left {
-    padding-right: 18px;
-  }
-  .project-right {
-    padding-left: 18px;
-  } */
-} ;
