@@ -105,6 +105,15 @@ h1 {
   }
 }
 
+@media only screen and (max-width: 420px) {
+  .btn1,
+  .btn2,
+  .btn3 {
+    width: 50px;
+    margin: 0 8px;
+  }
+}
+
 @media only screen and (max-width: 400px) {
   .btn1 {
     margin-right: 2px;
@@ -130,5 +139,12 @@ h1 {
   }
   .left-contain p {
     margin-left: 15px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .where-to-contact button {
+    display: block;
+    margin: 10px auto;
   }
 }

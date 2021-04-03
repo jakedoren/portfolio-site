@@ -7,25 +7,13 @@ import apiapp from '../../images/apiapp.jpg'
 import rickapp from '../../images/rickapp.jpg'
 import todoapp from '../../images/todoapp.jpg'
 
-export default function Projects() {
+export default function Projects(props) {
     return (
-
-        <div>
-            <div className="title-contain" name="projects">
-                <div className="title"> <h1>My Projects</h1></div>
-            </div>
-            
-            <div className="project-container">
-                <div className="project-left box">
-                    <a href="https://sharp-blackwell-56aa0f.netlify.app" target="_blank" rel="noreferrer"><img src={rickapp2} className="rickapp" alt="rickandmortyapp"/></a>
-                </div>
-                <div className="project-mid box">
-                    <a href="https://compassionate-tesla-e7e979.netlify.app/" target="_blank" rel="noreferrer"><img className="api-app" src={apiapp} alt="apiapp" /></a>
-                </div>
-                <div className="project-right box ">
-                    <a href="https://happy-pike-9aa462.netlify.app/" target="_blank" rel="noreferrer"><img src={arcadeapp} className="todo-app" alt="TodoApp"/></a>
-                </div>
-            </div>
+        <div className="projects-container">
+           <div className="projects">
+                <h1>{props.title}</h1>
+                <a href={props.link}><img src={props.image} alt='hello' /></a>
+           </div> 
         </div>
         
     )
