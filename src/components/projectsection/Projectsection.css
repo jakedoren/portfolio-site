@@ -3,20 +3,32 @@
   padding-bottom: 80px;
   background-color: #c1c1c1c1;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
 }
 
 .project-section-wrap {
   display: grid;
-  width: 95vw;
+  width: 95%;
   margin: 0 auto;
-  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-row-gap: 40px;
+
 }
 
 .proj-title {
   padding: 30px;
   margin: 0;
   font-size: 2.5rem;
+}
+
+
+@media screen and (max-width: 1440px) {
+  .project-section-wrap {
+    grid-template-columns: repeat(auto-fill, minmax(390px, 1fr));
+  }
 }
 
 @media screen and (max-width: 350px) {

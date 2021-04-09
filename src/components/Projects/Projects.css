@@ -1,8 +1,12 @@
 .projects img {
-  height: 200px;
+  height: 250px;
   cursor: pointer;
   border-radius: 10px;
   border: 2px solid black;
+}
+
+.projects-container {
+  margin: 0 auto;
 }
 
 .projects {
@@ -12,6 +16,7 @@
 .projects img:hover {
   transform: scale(0.98);
 }
+
 
 @media screen and (max-width: 716px) {
   .projects img {
